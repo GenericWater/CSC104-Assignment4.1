@@ -1,0 +1,137 @@
+/* final project CSS stylesheet */
+/* Lela J. Sanchez CSC104 */
+
+/* Styling for the entire body of the document */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a9ffff98;
+}
+
+/* Styling for the header section */
+header {
+    background-color: #42b45fc7;
+    color: #fff; /* Sets the text color to white */
+    padding: 10px 0; /* Adds 10 pixels of padding to the top and bottom */
+    text-align: center;
+    position: relative;
+}
+
+/* Styling for the logo within the header */
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styling for the logo image within the header */
+header .logo img.logo-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+/* Styling for the overall navigation menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+/* Each list item in the nav menu */
+nav ul li {
+    display: inline; /* Displays the list items inline */
+    margin: 0 10px; /* Adds 10 pixels of margin to the left and right of each list item */
+}
+
+/* Styling for the links in the navigation menu */
+nav ul li a {
+    color: #fff;
+    text-decoration: none; /* Removes the default underline from links */
+}
+
+/* Styling for the login/signup link */
+.login-signup {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #333;
+}
+
+/* Styling for the main content area */
+main {
+    padding: 20px; /* 20 pixels of padding around the main content */
+}
+
+/* Styling for the about us section / text */
+.about-us {
+    text-align: center;
+}
+
+/* Styling for the image in the about us section */
+.about-us-image {
+    width: 100%;
+    max-width: 40%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centers the image horizontally */
+}
+
+/* Styling for main headings h1, h2 */
+h1, h2 {
+    color: #0a5724;
+}
+
+/* Styling for each section */
+section {
+    /* adding a margin-bottom is like adding <br> tags in the html */
+    margin-bottom: 20px; 
+}
+
+/* Styling for the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Styling for content that needs to be centered / guaranteed centered */
+.center-content {
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Aside section styling */
+.sidebar {
+    background-color: #fcfcfc;
+    padding: 20px;
+    margin-left: 20px;
+    flex: 1;
+    border-radius: 8px;
+}
+
+.sidebar h2 {
+    color: #ad1717;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    color: #333;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
