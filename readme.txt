@@ -4,7 +4,7 @@ Description:
 This is the homepage for the Puppy Playland website. It includes a header with a logo, navigation links, and a login/signup link. The main content area contains an "About Us" section with a placeholder image of dogs playing in a park, an aside section with additional information and quick links, and a "Contact Us" section with centered content. The page is styled with CSS to provide a clean and professional appearance.
 
 Files:
-- index.html: Main HTML file for the homepage.
+- index-final.html: Main HTML file for the homepage.
 - main-final.css: CSS file to style the homepage.
 - readme.txt: This file describing the homepage.
 
